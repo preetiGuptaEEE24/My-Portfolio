@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+    
+#navbar {
+    height:60px;
+    display:flex;
+  /* display:flex; 1st this and two lines below are used to write sentences in btw */
+  justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    text-decoration: none;
+
+    
+ #logo {
+        font-size: 30px;
+       margin-right: 1200px;
+        text-decoration: none;
+        color:white;
+     
+       
+
+    }
+  a {
+        
+        margin-right: 10px;
+        text-decoration: none;
+        color:white;
+        padding: 0px;
+        border:none;
+
+    }
+}
+#content {
+    background-color: whitesmoke;
+    text-align: center;
+    font-style: normal;
+    height:600px;
+
+    
+    h1 {
+        font-weight: bolder;
+        font-size: 30px;
+        color: black;
+    }
+    a {
+        font-size: small;
+        font-weight: 35px;
+        color: black;
+    }
+   
+    .about-text {
+        font-size: 20px;
+        font-weight: lighter;
+        color:black;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    #project {
+        
+        h1 {
+            margin-top: 20px;
+            font-weight:bold;
+            font-size: 30px;
+            color: black;
+            margin-bottom: 10px;
+        }
+    }
+    #project1 {
+        margin-top: 20px;
+        height:70px;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        margin-left: 400px;
+        margin-right: 400px;
+        text-align: center;
+        padding-top: 20px;
+        h2 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color:black;
+
+        }
+    
+}
+#project2 {
+    margin-top: 20px;
+    height:70px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color:black;
+
+    }
+
+}
+}
+#copywrite {
+    color:white;
+    background-color: black;
+    height:70px;
+    display:flex;
+    justify-content: centre; 
+    align-items: center;
+    text-align: center;
+   
+    
+}
+#last {
+text-align: center;
+margin-left: 700px;
+}

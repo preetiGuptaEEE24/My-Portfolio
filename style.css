@@ -6,13 +6,16 @@
 }
     
 #navbar {
-    height:60px;
+ height:60px;
     display:flex;
   /* display:flex; 1st this and two lines below are used to write sentences in btw */
-  justify-content: space-between;
+  justify-content: space-around;
     align-items: center;
     background-color: black; 
     text-decoration: none;
+ flex-wrap: wrap;   /* allow items to wrap on small screens */
+}
+
 
     
  #logo {
@@ -24,21 +27,22 @@
        
 
     }
-  a {
+#navbar  a {
         
-        margin-right: 10px;
+       
         text-decoration: none;
         color:white;
-        padding: 0px;
+        padding:10px;
         border:none;
 
     }
-}
+
 #content {
     background-color: whitesmoke;
     text-align: center;
     font-style: normal;
     height:600px;
+    padding:20px;
 
     
     h1 {
@@ -70,15 +74,16 @@
         }
     }
     #project1 {
-        margin-top: 20px;
-        height:70px;
-        background-color: white;
+             background-color: white;
         color: black;
         font-size: 15px;
-        margin-left: 400px;
-        margin-right: 400px;
         text-align: center;
-        padding-top: 20px;
+        padding:20px;
+        width:80%;
+        max-width:600px;
+        margin:20px auto;
+        }
+
         h2 {
             margin-bottom: 10px;
             font-size: 18px;
@@ -89,16 +94,15 @@
     
 }
 #project2 {
-    margin-top: 20px;
-    height:70px;
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    margin-left: 400px;
-    margin-right: 400px;
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom: 40px;
+  background-color: white;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        padding:20px;
+        width:80%;
+        max-width:600px;
+        margin:20px auto;
+        }
     h2 {
         margin-bottom: 10px;
         font-size: 18px;
